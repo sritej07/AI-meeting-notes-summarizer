@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, Send, Edit3, Mail } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000/api'; // Update this for production
+const API_BASE_URL = 'https://ai-meeting-notes-summarizer-wn7r.onrender.com/api'; // Update this for production
 
 function App() {
   const [transcript, setTranscript] = useState('');
@@ -334,7 +334,7 @@ function App() {
           >
             {isSendingEmail ? (
               <div>
-                <Mail size={16} />
+                <Mail size={16}  />
                 <span>Sending...</span>
               </div>
             ) : (
