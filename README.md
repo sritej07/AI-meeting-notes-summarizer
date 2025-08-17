@@ -196,11 +196,11 @@ npm start
 
 ## Deployment Guide
 
-### Backend Deployment (Railway/Render)
+### Backend Deployment (Render)
 
 1. **Create requirements.txt** (provided above)
 
-2. **Create Procfile** (for Heroku-style platforms):
+2. **Create Procfile**:
 ```
 web: gunicorn app:app
 ```
